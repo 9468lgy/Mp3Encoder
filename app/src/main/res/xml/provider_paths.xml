@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <!--all path permission-->
+        <root-path
+            name="root_path"
+            path="." />
+        <!-- 上面的添加后下面的其实可以不用添加了，但是为了求稳。。 -->
+        <!--Environment.getExternalStorageDirectory() permission-->
+        <external-path
+            name="external_files"
+            path="." />
+        <!--context.getFilesDir() permission-->
+        <files-path
+            name="files_path"
+            path="." />
+        <cache-path
+            name="cache_files"
+            path="." />
+    </paths>
+</resources>
